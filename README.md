@@ -31,4 +31,13 @@ After this step please locate this notebook in your local machine and run the pr
 
 ### Read NWB files
 There is a short script written in matlab to read nwb files. 
+### 1, clone gihub repo 
+```git clone https://github.com/NeurodataWithoutBorders/matnwb.git```
+alternatively, download the zip file from github 
+```https://github.com/NeurodataWithoutBorders/matnwb```
+
+addpath('.add your path \matnwb-master');
+
+## Example to load nwb file in matlab 
+```nwbfile = nwbRead('your path to nwb file \nwb_file.nwb');```
 
