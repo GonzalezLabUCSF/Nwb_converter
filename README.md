@@ -28,3 +28,7 @@ Once the pynwb library is installed, it will install these libraries hdmf, h5py,
 
 After this step please locate this notebook in your local machine and run the program. 
 
+
+### Read NWB files
+There is a short script written in matlab to read nwb files. 
+
